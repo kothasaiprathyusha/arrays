@@ -1,0 +1,6 @@
+To generate all the subarrays:- 
+nums = [1,2,3]
+n = len(nums)
+for i in range(0,n):
+    for j in range(i,n):
+        print(nums[i:j+1]) 
